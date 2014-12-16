@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="OnDutyStatisticByXRay_DS" targetNamespace="http://tempuri.org/OnDutyStatisticByXRay_DS.xsd" xmlns:mstns="http://tempuri.org/OnDutyStatisticByXRay_DS.xsd" xmlns="http://tempuri.org/OnDutyStatisticByXRay_DS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="OnDutyStatisticByXRay_DS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="OnDutyStatisticByXRay_DS" msprop:Generator_UserDSName="OnDutyStatisticByXRay_DS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="XRayTypeDes" msprop:Generator_ColumnVarNameInTable="columnXRayTypeDes" msprop:Generator_ColumnPropNameInRow="XRayTypeDes" msprop:Generator_ColumnPropNameInTable="XRayTypeDesColumn" msprop:Generator_UserColumnName="XRayTypeDes" type="xs:string" minOccurs="0" />
+              <xs:element name="CPMemo" msprop:Generator_ColumnVarNameInTable="columnCPMemo" msprop:Generator_ColumnPropNameInRow="CPMemo" msprop:Generator_ColumnPropNameInTable="CPMemoColumn" msprop:Generator_UserColumnName="CPMemo" type="xs:string" minOccurs="0" />
+              <xs:element name="dDate" msprop:Generator_ColumnVarNameInTable="columndDate" msprop:Generator_ColumnPropNameInRow="dDate" msprop:Generator_ColumnPropNameInTable="dDateColumn" msprop:Generator_UserColumnName="dDate" type="xs:string" minOccurs="0" />
+              <xs:element name="dDateDes" msprop:Generator_ColumnVarNameInTable="columndDateDes" msprop:Generator_ColumnPropNameInRow="dDateDes" msprop:Generator_ColumnPropNameInTable="dDateDesColumn" msprop:Generator_UserColumnName="dDateDes" type="xs:string" minOccurs="0" />
+              <xs:element name="LoginCount" msprop:Generator_ColumnVarNameInTable="columnLoginCount" msprop:Generator_ColumnPropNameInRow="LoginCount" msprop:Generator_ColumnPropNameInTable="LoginCountColumn" msprop:Generator_UserColumnName="LoginCount" type="xs:string" minOccurs="0" />
+              <xs:element name="XRayType" msprop:Generator_ColumnVarNameInTable="columnXRayType" msprop:Generator_ColumnPropNameInRow="XRayType" msprop:Generator_ColumnPropNameInTable="XRayTypeColumn" msprop:Generator_UserColumnName="XRayType" type="xs:string" minOccurs="0" />
+              <xs:element name="cId" msprop:Generator_ColumnVarNameInTable="columncId" msprop:Generator_ColumnPropNameInRow="cId" msprop:Generator_ColumnPropNameInTable="cIdColumn" msprop:Generator_UserColumnName="cId" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

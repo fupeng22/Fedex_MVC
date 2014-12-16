@@ -1,0 +1,49 @@
+D:\开发模板\开发模板\ODS.DBUtility\bin\Debug\DBUtility.dll
+D:\开发模板\开发模板\ODS.DBUtility\bin\Debug\DBUtility.pdb
+D:\开发模板\开发模板\ODS.DBUtility\obj\Debug\ResolveAssemblyReference.cache
+D:\开发模板\开发模板\ODS.DBUtility\obj\Debug\DBUtility.dll
+D:\开发模板\开发模板\ODS.DBUtility\obj\Debug\DBUtility.pdb
+D:\Fedex\FedexSystem\DBUtility\bin\Debug\DBUtility.dll
+D:\Fedex\FedexSystem\DBUtility\bin\Debug\DBUtility.pdb
+D:\Fedex\FedexSystem\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+D:\Fedex\FedexSystem\DBUtility\obj\Debug\DBUtility.dll
+D:\Fedex\FedexSystem\DBUtility\obj\Debug\DBUtility.pdb
+E:\Fedex\kkk\FedexSystem_2008版本\DBUtility\bin\Debug\DBUtility.dll
+E:\Fedex\kkk\FedexSystem_2008版本\DBUtility\bin\Debug\DBUtility.pdb
+E:\Fedex\kkk\FedexSystem_2008版本\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+E:\Fedex\kkk\FedexSystem_2008版本\DBUtility\obj\Debug\DBUtility.dll
+E:\Fedex\kkk\FedexSystem_2008版本\DBUtility\obj\Debug\DBUtility.pdb
+C:\Documents and Settings\Benny\桌面\Fedex\FedexSystem_2008版本\DBUtility\bin\Debug\DBUtility.dll
+C:\Documents and Settings\Benny\桌面\Fedex\FedexSystem_2008版本\DBUtility\bin\Debug\DBUtility.pdb
+C:\Documents and Settings\Benny\桌面\Fedex\FedexSystem_2008版本\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Benny\桌面\Fedex\FedexSystem_2008版本\DBUtility\obj\Debug\DBUtility.dll
+C:\Documents and Settings\Benny\桌面\Fedex\FedexSystem_2008版本\DBUtility\obj\Debug\DBUtility.pdb
+E:\FedexSystem_2008版本\FedexSystem_2008版本\DBUtility\bin\Debug\DBUtility.dll
+E:\FedexSystem_2008版本\FedexSystem_2008版本\DBUtility\bin\Debug\DBUtility.pdb
+E:\FedexSystem_2008版本\FedexSystem_2008版本\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+E:\FedexSystem_2008版本\FedexSystem_2008版本\DBUtility\obj\Debug\DBUtility.dll
+E:\FedexSystem_2008版本\FedexSystem_2008版本\DBUtility\obj\Debug\DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\联邦设计工厂\FedexSystem_2008版本\DBUtility\bin\Debug\DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\联邦设计工厂\FedexSystem_2008版本\DBUtility\bin\Debug\DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\联邦设计工厂\FedexSystem_2008版本\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\联邦设计工厂\FedexSystem_2008版本\DBUtility\obj\Debug\DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\联邦设计工厂\FedexSystem_2008版本\DBUtility\obj\Debug\DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\联邦设计工厂\xin\FedexSystem_2008版本\DBUtility\bin\Debug\DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\联邦设计工厂\xin\FedexSystem_2008版本\DBUtility\bin\Debug\DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\联邦设计工厂\xin\FedexSystem_2008版本\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\联邦设计工厂\xin\FedexSystem_2008版本\DBUtility\obj\Debug\DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\联邦设计工厂\xin\FedexSystem_2008版本\DBUtility\obj\Debug\DBUtility.pdb
+J:\NicVic\联邦工厂\DBUtility\bin\Debug\DBUtility.dll
+J:\NicVic\联邦工厂\DBUtility\bin\Debug\DBUtility.pdb
+J:\NicVic\联邦工厂\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+J:\NicVic\联邦工厂\DBUtility\obj\Debug\DBUtility.dll
+J:\NicVic\联邦工厂\DBUtility\obj\Debug\DBUtility.pdb
+E:\Fedex_MVC\FedexSystem\DBUtility\bin\Debug\DBUtility.dll
+E:\Fedex_MVC\FedexSystem\DBUtility\bin\Debug\DBUtility.pdb
+E:\Fedex_MVC\FedexSystem\DBUtility\obj\Debug\DBUtility.dll
+E:\Fedex_MVC\FedexSystem\DBUtility\obj\Debug\DBUtility.pdb
+J:\NicVic\Fedex_MVC\FedexSystem\DBUtility\bin\Debug\DBUtility.dll
+J:\NicVic\Fedex_MVC\FedexSystem\DBUtility\bin\Debug\DBUtility.pdb
+J:\NicVic\Fedex_MVC\FedexSystem\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+J:\NicVic\Fedex_MVC\FedexSystem\DBUtility\obj\Debug\DBUtility.dll
+J:\NicVic\Fedex_MVC\FedexSystem\DBUtility\obj\Debug\DBUtility.pdb

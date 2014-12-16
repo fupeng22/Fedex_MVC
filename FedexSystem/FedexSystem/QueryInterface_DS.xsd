@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="QueryInterface_DS" targetNamespace="http://tempuri.org/QueryInterface_DS.xsd" xmlns:mstns="http://tempuri.org/QueryInterface_DS.xsd" xmlns="http://tempuri.org/QueryInterface_DS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="QueryInterface_DS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="QueryInterface_DS" msprop:Generator_UserDSName="QueryInterface_DS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ScanTime" msprop:Generator_ColumnVarNameInTable="columnScanTime" msprop:Generator_ColumnPropNameInRow="ScanTime" msprop:Generator_ColumnPropNameInTable="ScanTimeColumn" msprop:Generator_UserColumnName="ScanTime" type="xs:string" minOccurs="0" />
+              <xs:element name="FlightNumber" msprop:Generator_ColumnVarNameInTable="columnFlightNumber" msprop:Generator_ColumnPropNameInRow="FlightNumber" msprop:Generator_ColumnPropNameInTable="FlightNumberColumn" msprop:Generator_UserColumnName="FlightNumber" type="xs:string" minOccurs="0" />
+              <xs:element name="CargoBC" msprop:Generator_ColumnVarNameInTable="columnCargoBC" msprop:Generator_ColumnPropNameInRow="CargoBC" msprop:Generator_ColumnPropNameInTable="CargoBCColumn" msprop:Generator_UserColumnName="CargoBC" type="xs:string" minOccurs="0" />
+              <xs:element name="CargoName" msprop:Generator_ColumnVarNameInTable="columnCargoName" msprop:Generator_ColumnPropNameInRow="CargoName" msprop:Generator_ColumnPropNameInTable="CargoNameColumn" msprop:Generator_UserColumnName="CargoName" type="xs:string" minOccurs="0" />
+              <xs:element name="CargoQuantity" msprop:Generator_ColumnVarNameInTable="columnCargoQuantity" msprop:Generator_ColumnPropNameInRow="CargoQuantity" msprop:Generator_ColumnPropNameInTable="CargoQuantityColumn" msprop:Generator_UserColumnName="CargoQuantity" type="xs:string" minOccurs="0" />
+              <xs:element name="CargoIDCN" msprop:Generator_ColumnVarNameInTable="columnCargoIDCN" msprop:Generator_ColumnPropNameInRow="CargoIDCN" msprop:Generator_ColumnPropNameInTable="CargoIDCNColumn" msprop:Generator_UserColumnName="CargoIDCN" type="xs:string" minOccurs="0" />
+              <xs:element name="ScanUserNumber" msdata:Caption="UserNumber" msprop:Generator_ColumnVarNameInTable="columnScanUserNumber" msprop:Generator_ColumnPropNameInRow="ScanUserNumber" msprop:Generator_ColumnPropNameInTable="ScanUserNumberColumn" msprop:Generator_UserColumnName="ScanUserNumber" type="xs:string" minOccurs="0" />
+              <xs:element name="CheckResults" msprop:Generator_ColumnVarNameInTable="columnCheckResults" msprop:Generator_ColumnPropNameInRow="CheckResults" msprop:Generator_ColumnPropNameInTable="CheckResultsColumn" msprop:Generator_UserColumnName="CheckResults" type="xs:string" minOccurs="0" />
+              <xs:element name="OpenOrNot" msprop:Generator_ColumnVarNameInTable="columnOpenOrNot" msprop:Generator_ColumnPropNameInRow="OpenOrNot" msprop:Generator_ColumnPropNameInTable="OpenOrNotColumn" msprop:Generator_UserColumnName="OpenOrNot" type="xs:string" minOccurs="0" />
+              <xs:element name="CheckResultsDescription" msprop:Generator_ColumnVarNameInTable="columnCheckResultsDescription" msprop:Generator_ColumnPropNameInRow="CheckResultsDescription" msprop:Generator_ColumnPropNameInTable="CheckResultsDescriptionColumn" msprop:Generator_UserColumnName="CheckResultsDescription" type="xs:string" minOccurs="0" />
+              <xs:element name="CheckUserNumber" msprop:Generator_ColumnVarNameInTable="columnCheckUserNumber" msprop:Generator_ColumnPropNameInRow="CheckUserNumber" msprop:Generator_ColumnPropNameInTable="CheckUserNumberColumn" msprop:Generator_UserColumnName="CheckUserNumber" type="xs:string" minOccurs="0" />
+              <xs:element name="CKID" msprop:Generator_ColumnVarNameInTable="columnCKID" msprop:Generator_ColumnPropNameInRow="CKID" msprop:Generator_ColumnPropNameInTable="CKIDColumn" msprop:Generator_UserColumnName="CKID" type="xs:string" minOccurs="0" />
+              <xs:element name="CLID" msprop:Generator_ColumnVarNameInTable="columnCLID" msprop:Generator_ColumnPropNameInRow="CLID" msprop:Generator_ColumnPropNameInTable="CLIDColumn" msprop:Generator_UserColumnName="CLID" type="xs:string" minOccurs="0" />
+              <xs:element name="TestImg" msprop:Generator_ColumnVarNameInTable="columnTestImg" msprop:Generator_ColumnPropNameInRow="TestImg" msprop:Generator_ColumnPropNameInTable="TestImgColumn" msprop:Generator_UserColumnName="TestImg" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,119 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <script src="@Url.Content("~/Scripts/jquery-1.6.2.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/JqueryUI/jquery.easyui.min.js")" type="text/javascript"></script>
+    <link href="@Url.Content("~/JqueryUI/themes/default/easyui.css")"  rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/JqueryUI/themes/icon.css")"  rel="stylesheet" type="text/css" />
+    <script  src="@Url.Content("~/JS/DepartManagement.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/JqueryUI/easyui-lang-zh_CN.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/My97DatePicker/WdatePicker.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/JS/Common/Common.js")" type="text/javascript"></script>
+</head>
+<body>
+    <div style="background: #EFEFEF; width: 100%;">
+        <a href="javascript:void(0)" id="btnQuery" class="easyui-linkbutton" data-options="plain:true,iconCls:'icon-search'">
+            查询</a> <a href="javascript:void(0)" id="btnAddCompany" class="easyui-linkbutton"
+                data-options="plain:true,iconCls:'icon-add'">添加顶级部门</a><a href="javascript:void(0)"
+                    id="btnAdd" class="easyui-linkbutton" data-options="plain:true,iconCls:'icon-add'">
+                    添加子部门</a> <a href="javascript:void(0)" id="btnUpdate" class="easyui-linkbutton" data-options="plain:true,iconCls:'icon-edit'">
+                        修改</a> <a href="javascript:void(0)" id="btnDelete" class="easyui-linkbutton" data-options="plain:true,iconCls:'icon-remove'">
+                            删除</a> <a href="javascript:void(0)" id="btnExpandAll" class="easyui-linkbutton" data-options="plain:true,iconCls:'icon-mini-expand'">
+                                展开</a><a href="javascript:void(0)" id="btnCollapseAll" class="easyui-linkbutton"
+                                    data-options="plain:true,iconCls:'icon-mini-collapse'"> 收缩</a>
+        <span style="font-weight: bold; color: red">&nbsp;&nbsp;&nbsp;图标<img src="../../JqueryUI/themes/icons/man.png" />表示用户，图标<img
+            src="../../JqueryUI/themes/icons/department.png" />表示部门</span> @*  <a href="javascript:void(0)"
+                                        id="btnExport" class="easyui-linkbutton" data-options="plain:true,iconCls:'icon-excel'"  style="display:none">
+                                        导出</a><a href="javascript:void(0)" id="btnPrint" class="easyui-linkbutton" data-options="plain:true,iconCls:'icon-print'"  style="display:none">
+                                            打印</a>*@
+    </div>
+    <div id="dlg_CreateCompany" data-options="iconCls:'icon-save'" style="padding: 1px;
+        width: 300px; height: 150px;">
+        <br />
+        <center>
+            请输入顶级部门名称：(<font style="color: Red; font-weight: bold">不可重复</font>)<br />
+            <br />
+            <input type="text" id="txtCompanyName" name="txtCompanyName" class="easyui-validatebox"
+                required="true" style="width: 300px" /></center>
+    </div>
+    <div id="dlg_Create" data-options="iconCls:'icon-save'" style="padding: 1px; width: 300px;
+        height: 150px;">
+        <br />
+        <center>
+            <table>
+                <tr>
+                    <td>
+                        所属部门:
+                    </td>
+                    <td>
+                        <span id="span_ParentDepart_Create"></span>
+                        <input type="hidden" id="hid_ParentDepartId" name="hid_ParentDepartId" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        下级部门:
+                    </td>
+                    <td>
+                        <input type="text" id="txtSubDepart_Create" name="txtSubDepart_Create" class="easyui-validatebox"
+                            required="true" style="width: 250px" />
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </div>
+    <div id="dlg_Update" data-options="iconCls:'icon-save'" style="padding: 1px; width: 300px;
+        height: 150px;">
+        <br />
+        <center>
+            <table>
+                <tr>
+                    <td>
+                        旧部门名:
+                    </td>
+                    <td>
+                        <span id="span_OldDepartName"></span>
+                        <input type="hidden" id="hid_DepartId" name="hid_DepartId" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        新部门名:
+                    </td>
+                    <td>
+                        <input type="text" id="txtNewDepartName" name="txtNewDepartName" class="easyui-validatebox"
+                            required="true" style="width: 250px" />
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </div>
+    <div id="TVDepart" name="TVDepart" fit="true">
+    </div>
+    <div id="mm" class="easyui-menu" style="width: 120px;">
+        <div id="divQuery" data-options="iconCls:'icon-search'">
+            查询</div>
+        <div id="divAddCompany" data-options="iconCls:'icon-add'">
+            添加顶级部门</div>
+        <div id="divAdd" data-options="iconCls:'icon-add'">
+            添加子部门</div>
+        <div id="divUpdate" data-options="iconCls:'icon-edit'">
+            修改</div>
+        <div id="divDelete" data-options="iconCls:'icon-remove'">
+            删除</div>
+        <div id="divExpand" data-options="iconCls:'icon-mini-expand'">
+            展开</div>
+        <div id="divCollapse" data-options="iconCls:'icon-mini-collapse'">
+            收缩</div>
+        @* <div id="divExport" data-options="iconCls:'icon-excel'" style="display: none">
+            导出</div>
+        <div id="divPrint" data-options="iconCls:'icon-print'" style="display: none">
+            打印</div>*@
+    </div>
+</body>
+</html>

@@ -1,0 +1,96 @@
+D:\开发模板\开发模板\ODS.SQLserverDAL\bin\Debug\SQLDAL.dll
+D:\开发模板\开发模板\ODS.SQLserverDAL\bin\Debug\SQLDAL.pdb
+D:\开发模板\开发模板\ODS.SQLserverDAL\bin\Debug\DBUtility.dll
+D:\开发模板\开发模板\ODS.SQLserverDAL\bin\Debug\Model.dll
+D:\开发模板\开发模板\ODS.SQLserverDAL\bin\Debug\ODS.IDAL.dll
+D:\开发模板\开发模板\ODS.SQLserverDAL\bin\Debug\ODS.Lib.dll
+D:\开发模板\开发模板\ODS.SQLserverDAL\bin\Debug\ODS.Model.dll
+D:\开发模板\开发模板\ODS.SQLserverDAL\bin\Debug\DBUtility.pdb
+D:\开发模板\开发模板\ODS.SQLserverDAL\bin\Debug\Model.pdb
+D:\开发模板\开发模板\ODS.SQLserverDAL\bin\Debug\ODS.IDAL.pdb
+D:\开发模板\开发模板\ODS.SQLserverDAL\bin\Debug\ODS.Lib.pdb
+D:\开发模板\开发模板\ODS.SQLserverDAL\bin\Debug\ODS.Model.pdb
+D:\开发模板\开发模板\ODS.SQLserverDAL\obj\Debug\ResolveAssemblyReference.cache
+D:\开发模板\开发模板\ODS.SQLserverDAL\obj\Debug\SQLDAL.dll
+D:\开发模板\开发模板\ODS.SQLserverDAL\obj\Debug\SQLDAL.pdb
+D:\Fedex\FedexSystem\SQLDAL\bin\Debug\SQLDAL.dll
+D:\Fedex\FedexSystem\SQLDAL\bin\Debug\SQLDAL.pdb
+D:\Fedex\FedexSystem\SQLDAL\bin\Debug\DBUtility.dll
+D:\Fedex\FedexSystem\SQLDAL\bin\Debug\Model.dll
+D:\Fedex\FedexSystem\SQLDAL\bin\Debug\DBUtility.pdb
+D:\Fedex\FedexSystem\SQLDAL\bin\Debug\Model.pdb
+D:\Fedex\FedexSystem\SQLDAL\obj\Debug\ResolveAssemblyReference.cache
+D:\Fedex\FedexSystem\SQLDAL\obj\Debug\SQLDAL.dll
+D:\Fedex\FedexSystem\SQLDAL\obj\Debug\SQLDAL.pdb
+E:\Fedex\kkk\FedexSystem_2008版本\SQLDAL\bin\Debug\SQLDAL.dll
+E:\Fedex\kkk\FedexSystem_2008版本\SQLDAL\bin\Debug\SQLDAL.pdb
+E:\Fedex\kkk\FedexSystem_2008版本\SQLDAL\bin\Debug\DBUtility.dll
+E:\Fedex\kkk\FedexSystem_2008版本\SQLDAL\bin\Debug\Model.dll
+E:\Fedex\kkk\FedexSystem_2008版本\SQLDAL\bin\Debug\DBUtility.pdb
+E:\Fedex\kkk\FedexSystem_2008版本\SQLDAL\bin\Debug\Model.pdb
+E:\Fedex\kkk\FedexSystem_2008版本\SQLDAL\obj\Debug\ResolveAssemblyReference.cache
+E:\Fedex\kkk\FedexSystem_2008版本\SQLDAL\obj\Debug\SQLDAL.dll
+E:\Fedex\kkk\FedexSystem_2008版本\SQLDAL\obj\Debug\SQLDAL.pdb
+C:\Documents and Settings\Benny\桌面\Fedex\FedexSystem_2008版本\SQLDAL\bin\Debug\SQLDAL.dll
+C:\Documents and Settings\Benny\桌面\Fedex\FedexSystem_2008版本\SQLDAL\bin\Debug\SQLDAL.pdb
+C:\Documents and Settings\Benny\桌面\Fedex\FedexSystem_2008版本\SQLDAL\bin\Debug\DBUtility.dll
+C:\Documents and Settings\Benny\桌面\Fedex\FedexSystem_2008版本\SQLDAL\bin\Debug\Model.dll
+C:\Documents and Settings\Benny\桌面\Fedex\FedexSystem_2008版本\SQLDAL\bin\Debug\DBUtility.pdb
+C:\Documents and Settings\Benny\桌面\Fedex\FedexSystem_2008版本\SQLDAL\bin\Debug\Model.pdb
+C:\Documents and Settings\Benny\桌面\Fedex\FedexSystem_2008版本\SQLDAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Benny\桌面\Fedex\FedexSystem_2008版本\SQLDAL\obj\Debug\SQLDAL.dll
+C:\Documents and Settings\Benny\桌面\Fedex\FedexSystem_2008版本\SQLDAL\obj\Debug\SQLDAL.pdb
+E:\FedexSystem_2008版本\FedexSystem_2008版本\SQLDAL\bin\Debug\SQLDAL.dll
+E:\FedexSystem_2008版本\FedexSystem_2008版本\SQLDAL\bin\Debug\SQLDAL.pdb
+E:\FedexSystem_2008版本\FedexSystem_2008版本\SQLDAL\bin\Debug\DBUtility.dll
+E:\FedexSystem_2008版本\FedexSystem_2008版本\SQLDAL\bin\Debug\Model.dll
+E:\FedexSystem_2008版本\FedexSystem_2008版本\SQLDAL\bin\Debug\DBUtility.pdb
+E:\FedexSystem_2008版本\FedexSystem_2008版本\SQLDAL\bin\Debug\Model.pdb
+E:\FedexSystem_2008版本\FedexSystem_2008版本\SQLDAL\obj\Debug\ResolveAssemblyReference.cache
+E:\FedexSystem_2008版本\FedexSystem_2008版本\SQLDAL\obj\Debug\SQLDAL.dll
+E:\FedexSystem_2008版本\FedexSystem_2008版本\SQLDAL\obj\Debug\SQLDAL.pdb
+C:\Documents and Settings\Administrator\桌面\联邦设计工厂\FedexSystem_2008版本\SQLDAL\bin\Debug\SQLDAL.dll
+C:\Documents and Settings\Administrator\桌面\联邦设计工厂\FedexSystem_2008版本\SQLDAL\bin\Debug\SQLDAL.pdb
+C:\Documents and Settings\Administrator\桌面\联邦设计工厂\FedexSystem_2008版本\SQLDAL\bin\Debug\DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\联邦设计工厂\FedexSystem_2008版本\SQLDAL\bin\Debug\Model.dll
+C:\Documents and Settings\Administrator\桌面\联邦设计工厂\FedexSystem_2008版本\SQLDAL\bin\Debug\DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\联邦设计工厂\FedexSystem_2008版本\SQLDAL\bin\Debug\Model.pdb
+C:\Documents and Settings\Administrator\桌面\联邦设计工厂\FedexSystem_2008版本\SQLDAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\联邦设计工厂\FedexSystem_2008版本\SQLDAL\obj\Debug\SQLDAL.dll
+C:\Documents and Settings\Administrator\桌面\联邦设计工厂\FedexSystem_2008版本\SQLDAL\obj\Debug\SQLDAL.pdb
+C:\Documents and Settings\Administrator\桌面\联邦设计工厂\xin\FedexSystem_2008版本\SQLDAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\联邦设计工厂\xin\FedexSystem_2008版本\SQLDAL\obj\Debug\SQLDAL.dll
+C:\Documents and Settings\Administrator\桌面\联邦设计工厂\xin\FedexSystem_2008版本\SQLDAL\bin\Debug\SQLDAL.dll
+C:\Documents and Settings\Administrator\桌面\联邦设计工厂\xin\FedexSystem_2008版本\SQLDAL\bin\Debug\SQLDAL.pdb
+C:\Documents and Settings\Administrator\桌面\联邦设计工厂\xin\FedexSystem_2008版本\SQLDAL\bin\Debug\DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\联邦设计工厂\xin\FedexSystem_2008版本\SQLDAL\bin\Debug\Model.dll
+C:\Documents and Settings\Administrator\桌面\联邦设计工厂\xin\FedexSystem_2008版本\SQLDAL\bin\Debug\DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\联邦设计工厂\xin\FedexSystem_2008版本\SQLDAL\bin\Debug\Model.pdb
+C:\Documents and Settings\Administrator\桌面\联邦设计工厂\xin\FedexSystem_2008版本\SQLDAL\obj\Debug\SQLDAL.pdb
+J:\NicVic\联邦工厂\SQLDAL\bin\Debug\SQLDAL.dll
+J:\NicVic\联邦工厂\SQLDAL\bin\Debug\SQLDAL.pdb
+J:\NicVic\联邦工厂\SQLDAL\bin\Debug\DBUtility.dll
+J:\NicVic\联邦工厂\SQLDAL\bin\Debug\Model.dll
+J:\NicVic\联邦工厂\SQLDAL\bin\Debug\DBUtility.pdb
+J:\NicVic\联邦工厂\SQLDAL\bin\Debug\Model.pdb
+J:\NicVic\联邦工厂\SQLDAL\obj\Debug\ResolveAssemblyReference.cache
+J:\NicVic\联邦工厂\SQLDAL\obj\Debug\SQLDAL.dll
+J:\NicVic\联邦工厂\SQLDAL\obj\Debug\SQLDAL.pdb
+E:\Fedex_MVC\FedexSystem\SQLDAL\bin\Debug\SQLDAL.dll
+E:\Fedex_MVC\FedexSystem\SQLDAL\bin\Debug\SQLDAL.pdb
+E:\Fedex_MVC\FedexSystem\SQLDAL\bin\Debug\DBUtility.dll
+E:\Fedex_MVC\FedexSystem\SQLDAL\bin\Debug\Model.dll
+E:\Fedex_MVC\FedexSystem\SQLDAL\bin\Debug\DBUtility.pdb
+E:\Fedex_MVC\FedexSystem\SQLDAL\bin\Debug\Model.pdb
+E:\Fedex_MVC\FedexSystem\SQLDAL\obj\Debug\SQLDAL.csprojResolveAssemblyReference.cache
+E:\Fedex_MVC\FedexSystem\SQLDAL\obj\Debug\SQLDAL.dll
+E:\Fedex_MVC\FedexSystem\SQLDAL\obj\Debug\SQLDAL.pdb
+J:\NicVic\Fedex_MVC\FedexSystem\SQLDAL\bin\Debug\SQLDAL.dll
+J:\NicVic\Fedex_MVC\FedexSystem\SQLDAL\bin\Debug\SQLDAL.pdb
+J:\NicVic\Fedex_MVC\FedexSystem\SQLDAL\bin\Debug\DBUtility.dll
+J:\NicVic\Fedex_MVC\FedexSystem\SQLDAL\bin\Debug\Model.dll
+J:\NicVic\Fedex_MVC\FedexSystem\SQLDAL\bin\Debug\DBUtility.pdb
+J:\NicVic\Fedex_MVC\FedexSystem\SQLDAL\bin\Debug\Model.pdb
+J:\NicVic\Fedex_MVC\FedexSystem\SQLDAL\obj\Debug\ResolveAssemblyReference.cache
+J:\NicVic\Fedex_MVC\FedexSystem\SQLDAL\obj\Debug\SQLDAL.dll
+J:\NicVic\Fedex_MVC\FedexSystem\SQLDAL\obj\Debug\SQLDAL.pdb

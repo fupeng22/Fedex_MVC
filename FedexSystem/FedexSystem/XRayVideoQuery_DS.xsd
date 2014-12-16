@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="XRayVideoQuery_DS" targetNamespace="http://tempuri.org/XRayVideoQuery_DS.xsd" xmlns:mstns="http://tempuri.org/XRayVideoQuery_DS.xsd" xmlns="http://tempuri.org/XRayVideoQuery_DS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="XRayVideoQuery_DS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="XRayVideoQuery_DS" msprop:Generator_UserDSName="XRayVideoQuery_DS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CargoBC" msprop:Generator_ColumnVarNameInTable="columnCargoBC" msprop:Generator_ColumnPropNameInRow="CargoBC" msprop:Generator_ColumnPropNameInTable="CargoBCColumn" msprop:Generator_UserColumnName="CargoBC" type="xs:string" minOccurs="0" />
+              <xs:element name="CargoName" msprop:Generator_ColumnVarNameInTable="columnCargoName" msprop:Generator_ColumnPropNameInRow="CargoName" msprop:Generator_ColumnPropNameInTable="CargoNameColumn" msprop:Generator_UserColumnName="CargoName" type="xs:string" minOccurs="0" />
+              <xs:element name="ScanCP" msprop:Generator_ColumnVarNameInTable="columnScanCP" msprop:Generator_ColumnPropNameInRow="ScanCP" msprop:Generator_ColumnPropNameInTable="ScanCPColumn" msprop:Generator_UserColumnName="ScanCP" type="xs:string" minOccurs="0" />
+              <xs:element name="UserName" msprop:Generator_ColumnVarNameInTable="columnUserName" msprop:Generator_ColumnPropNameInRow="UserName" msprop:Generator_ColumnPropNameInTable="UserNameColumn" msprop:Generator_UserColumnName="UserName" type="xs:string" minOccurs="0" />
+              <xs:element name="ScanTime" msprop:Generator_ColumnVarNameInTable="columnScanTime" msprop:Generator_ColumnPropNameInRow="ScanTime" msprop:Generator_ColumnPropNameInTable="ScanTimeColumn" msprop:Generator_UserColumnName="ScanTime" type="xs:string" minOccurs="0" />
+              <xs:element name="ScanByMD_SR" msprop:Generator_ColumnVarNameInTable="columnScanByMD_SR" msprop:Generator_ColumnPropNameInRow="ScanByMD_SR" msprop:Generator_ColumnPropNameInTable="ScanByMD_SRColumn" msprop:Generator_UserColumnName="ScanByMD_SR" type="xs:string" minOccurs="0" />
+              <xs:element name="ScanByMD_Chn" msprop:Generator_ColumnVarNameInTable="columnScanByMD_Chn" msprop:Generator_ColumnPropNameInRow="ScanByMD_Chn" msprop:Generator_ColumnPropNameInTable="ScanByMD_ChnColumn" msprop:Generator_UserColumnName="ScanByMD_Chn" type="xs:string" minOccurs="0" />
+              <xs:element name="UserNumber" msprop:Generator_ColumnVarNameInTable="columnUserNumber" msprop:Generator_ColumnPropNameInRow="UserNumber" msprop:Generator_ColumnPropNameInTable="UserNumberColumn" msprop:Generator_UserColumnName="UserNumber" type="xs:string" minOccurs="0" />
+              <xs:element name="UserPSW" msprop:Generator_ColumnVarNameInTable="columnUserPSW" msprop:Generator_ColumnPropNameInRow="UserPSW" msprop:Generator_ColumnPropNameInTable="UserPSWColumn" msprop:Generator_UserColumnName="UserPSW" type="xs:string" minOccurs="0" />
+              <xs:element name="DataColumn1" msprop:Generator_ColumnVarNameInTable="columnDataColumn1" msprop:Generator_ColumnPropNameInRow="DataColumn1" msprop:Generator_ColumnPropNameInTable="DataColumn1Column" msprop:Generator_UserColumnName="DataColumn1" type="xs:string" minOccurs="0" />
+              <xs:element name="CLID" msprop:Generator_ColumnVarNameInTable="columnCLID" msprop:Generator_ColumnPropNameInRow="CLID" msprop:Generator_ColumnPropNameInTable="CLIDColumn" msprop:Generator_UserColumnName="CLID" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

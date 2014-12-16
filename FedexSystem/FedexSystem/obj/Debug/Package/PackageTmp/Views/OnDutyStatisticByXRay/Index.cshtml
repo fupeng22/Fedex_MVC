@@ -1,0 +1,41 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Index</title>
+    <script src="@Url.Content("~/Scripts/jquery-1.6.2.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/JqueryUI/jquery.easyui.min.js")" type="text/javascript"></script>
+    <link href="@Url.Content("~/JqueryUI/themes/default/easyui.css")"  rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/JqueryUI/themes/icon.css")"  rel="stylesheet" type="text/css" />
+    <script  src="@Url.Content("~/JS/OnDutyStatisticByXRay.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/JqueryUI/easyui-lang-zh_CN.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/My97DatePicker/WdatePicker.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/JS/Common/Common.js")" type="text/javascript"></script>
+     <script src="@Url.Content("~/JqueryUI/datagrid-detailview.js")" type="text/javascript"></script>
+</head>
+<body>
+    <div id="toolBar" style="padding: 2px; height: auto">
+        登入日期段:<input type="text" id="txtBeginD" name="txtBeginD" onfocus="WdatePicker();"
+                class="Wdate" style="width: 90px"  value='@(DateTime.Now.ToString("yyyy-MM-dd"))'/>---<input type="text" id="txtEndD" name="txtEndD"
+                    onfocus="WdatePicker();" class="Wdate" style="width: 90px" value='@(DateTime.Now.ToString("yyyy-MM-dd"))'/>&nbsp;
+        X光机:<input type="text" id="ddlXRayType" name="ddlXRayType" multiple
+            style="width: 350px;" panelheight="auto"/>&nbsp; <a href="#" id="btnQuery"
+            name="btnQuery" class="easyui-linkbutton" data-options="iconCls:'icon-search'">查询</a>
+        <a href="#" id="btnReset" name="btnReset" class="easyui-linkbutton" data-options="iconCls:'icon-undo'">
+            重置</a>&nbsp;<a href="javascript:void(0)" id="menuButtonReport" class="easyui-menubutton"
+                data-options="menu:'#menuButtons',iconCls:'icon-report',plain:false">报表</a>
+        <div id="menuButtons" style="width: 150px;">
+            <div id="btnPrint" name="btnPrint" data-options="iconCls:'icon-print'">
+                打印(PDF)</div>
+            <div id="btnExcel" name="btnExcel" data-options="iconCls:'icon-excel'">
+                导出(Excel)</div>
+        </div>
+        <br />
+        员工:<input type="text" id="txtUsers" name="txtUsers" style="width:700px" />&nbsp;<span style="color:Red; font-weight:bold">不填写则查询所有员工,可填写多个员工名称,以"，"或","分割</span>
+    </div>
+    <div id="DG_MainQueryResult" fit="true" style="width: 800px; height: 600px">
+    </div>
+</body>
+</html>

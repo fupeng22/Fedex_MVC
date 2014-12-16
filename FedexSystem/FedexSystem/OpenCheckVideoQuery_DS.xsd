@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="OpenCheckVideoQuery_DS" targetNamespace="http://tempuri.org/OpenCheckVideoQuery_DS.xsd" xmlns:mstns="http://tempuri.org/OpenCheckVideoQuery_DS.xsd" xmlns="http://tempuri.org/OpenCheckVideoQuery_DS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="OpenCheckVideoQuery_DS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="OpenCheckVideoQuery_DS" msprop:Generator_UserDSName="OpenCheckVideoQuery_DS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CargoBC" msprop:Generator_ColumnVarNameInTable="columnCargoBC" msprop:Generator_ColumnPropNameInRow="CargoBC" msprop:Generator_ColumnPropNameInTable="CargoBCColumn" msprop:Generator_UserColumnName="CargoBC" type="xs:string" minOccurs="0" />
+              <xs:element name="CargoName" msprop:Generator_ColumnVarNameInTable="columnCargoName" msprop:Generator_ColumnPropNameInRow="CargoName" msprop:Generator_ColumnPropNameInTable="CargoNameColumn" msprop:Generator_UserColumnName="CargoName" type="xs:string" minOccurs="0" />
+              <xs:element name="CheckCP" msprop:Generator_ColumnVarNameInTable="columnCheckCP" msprop:Generator_ColumnPropNameInRow="CheckCP" msprop:Generator_ColumnPropNameInTable="CheckCPColumn" msprop:Generator_UserColumnName="CheckCP" type="xs:string" minOccurs="0" />
+              <xs:element name="UserName" msprop:Generator_ColumnVarNameInTable="columnUserName" msprop:Generator_ColumnPropNameInRow="UserName" msprop:Generator_ColumnPropNameInTable="UserNameColumn" msprop:Generator_UserColumnName="UserName" type="xs:string" minOccurs="0" />
+              <xs:element name="CheckResults" msprop:Generator_ColumnVarNameInTable="columnCheckResults" msprop:Generator_ColumnPropNameInRow="CheckResults" msprop:Generator_ColumnPropNameInTable="CheckResultsColumn" msprop:Generator_UserColumnName="CheckResults" type="xs:string" minOccurs="0" />
+              <xs:element name="CheckResultsDescription" msprop:Generator_ColumnVarNameInTable="columnCheckResultsDescription" msprop:Generator_ColumnPropNameInRow="CheckResultsDescription" msprop:Generator_ColumnPropNameInTable="CheckResultsDescriptionColumn" msprop:Generator_UserColumnName="CheckResultsDescription" type="xs:string" minOccurs="0" />
+              <xs:element name="CheckDescription" msprop:Generator_ColumnVarNameInTable="columnCheckDescription" msprop:Generator_ColumnPropNameInRow="CheckDescription" msprop:Generator_ColumnPropNameInTable="CheckDescriptionColumn" msprop:Generator_UserColumnName="CheckDescription" type="xs:string" minOccurs="0" />
+              <xs:element name="CheckBeginTime" msprop:Generator_ColumnVarNameInTable="columnCheckBeginTime" msprop:Generator_ColumnPropNameInRow="CheckBeginTime" msprop:Generator_ColumnPropNameInTable="CheckBeginTimeColumn" msprop:Generator_UserColumnName="CheckBeginTime" type="xs:string" minOccurs="0" />
+              <xs:element name="CheckEndTime" msprop:Generator_ColumnVarNameInTable="columnCheckEndTime" msprop:Generator_ColumnPropNameInRow="CheckEndTime" msprop:Generator_ColumnPropNameInTable="CheckEndTimeColumn" msprop:Generator_UserColumnName="CheckEndTime" type="xs:string" minOccurs="0" />
+              <xs:element name="CheckByMD_SR" msprop:Generator_ColumnVarNameInTable="columnCheckByMD_SR" msprop:Generator_ColumnPropNameInRow="CheckByMD_SR" msprop:Generator_ColumnPropNameInTable="CheckByMD_SRColumn" msprop:Generator_UserColumnName="CheckByMD_SR" type="xs:string" minOccurs="0" />
+              <xs:element name="CheckByMD_Chn" msprop:Generator_ColumnVarNameInTable="columnCheckByMD_Chn" msprop:Generator_ColumnPropNameInRow="CheckByMD_Chn" msprop:Generator_ColumnPropNameInTable="CheckByMD_ChnColumn" msprop:Generator_UserColumnName="CheckByMD_Chn" type="xs:string" minOccurs="0" />
+              <xs:element name="CargoID" msprop:Generator_ColumnVarNameInTable="columnCargoID" msprop:Generator_ColumnPropNameInRow="CargoID" msprop:Generator_ColumnPropNameInTable="CargoIDColumn" msprop:Generator_UserColumnName="CargoID" type="xs:string" minOccurs="0" />
+              <xs:element name="CKID" msprop:Generator_ColumnVarNameInTable="columnCKID" msprop:Generator_ColumnPropNameInRow="CKID" msprop:Generator_ColumnPropNameInTable="CKIDColumn" msprop:Generator_UserColumnName="CKID" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

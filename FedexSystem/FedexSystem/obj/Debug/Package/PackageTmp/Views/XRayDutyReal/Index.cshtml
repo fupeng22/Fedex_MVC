@@ -1,0 +1,224 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Index</title>
+    <script src="@Url.Content("~/Scripts/jquery-1.6.2.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/JqueryUI/jquery.easyui.min.js")" type="text/javascript"></script>
+    <link href="@Url.Content("~/JqueryUI/themes/default/easyui.css")"  rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/JqueryUI/themes/icon.css")"  rel="stylesheet" type="text/css" />
+    <script  src="@Url.Content("~/JS/videoPlay.js")" type="text/javascript"></script>
+    <script  src="@Url.Content("~/JS/XRayDutyReal.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/JqueryUI/easyui-lang-zh_CN.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/My97DatePicker/WdatePicker.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/JS/Common/Common.js")" type="text/javascript"></script>
+</head>
+<body>
+    <div id="panelTool_CP_X0">
+        <a href="#" class="icon-reload" id="btn_panelTool_CP_X0" iwitchcp="0"></a>
+    </div>
+    <div id="panelTool_CP_X1">
+        <a href="#" class="icon-reload" id="btn_panelTool_CP_X1" iwitchcp="1"></a>
+    </div>
+    <div id="panelTool_CP_X2">
+        <a href="#" class="icon-reload" id="btn_panelTool_CP_X2" iwitchcp="2"></a>
+    </div>
+    <div id="panelTool_CP_X3">
+        <a href="#" class="icon-reload" id="btn_panelTool_CP_X3" iwitchcp="3"></a>
+    </div>
+    <div id="panelTool_CP_X4">
+        <a href="#" class="icon-reload" id="btn_panelTool_CP_X4" iwitchcp="4"></a>
+    </div>
+    <div id="panelTool_CP_X5">
+        <a href="#" class="icon-reload" id="btn_panelTool_CP_X5" iwitchcp="5"></a>
+    </div>
+    <div id="panelTool_CP_X6">
+        <a href="#" class="icon-reload" id="btn_panelTool_CP_X6" iwitchcp="6"></a>
+    </div>
+    <div id="panelTool_CP_X7">
+        <a href="#" class="icon-reload" id="btn_panelTool_CP_X7" iwitchcp="7"></a>
+    </div>
+    <div id="panelTool_CP_X8">
+        <a href="#" class="icon-reload" id="btn_panelTool_CP_X8" iwitchcp="8"></a>
+    </div>
+    <div id="panelTool_CP_X9">
+        <a href="#" class="icon-reload" id="btn_panelTool_CP_X9" iwitchcp="9"></a>
+    </div>
+    <div id="panelTool_CP_X10">
+        <a href="#" class="icon-reload" id="btn_panelTool_CP_X10" iwitchcp="10"></a>
+    </div>
+    <div id="panelTool_CP_X11">
+        <a href="#" class="icon-reload" id="btn_panelTool_CP_X11" iwitchcp="11"></a>
+    </div>
+    <table>
+        <tr>
+            <td colspan="4" align="center">
+                当前日期:<input type="text" id="inputDate" name="inputDate" onfocus="WdatePicker({dateFmt:'yyyy-MM-dd'});"
+                class="Wdate" style="width: 100px"  value='@(DateTime.Now.ToString("yyyy-MM-dd"))'/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;定时刷新<input
+                    type="checkbox" id="chkEnableTime" />间隔<select id="selectInterval">
+                        <option value="10">10</option>
+                        <option value="20" selected>20</option>
+                        <option value="30">30</option>
+                        <option value="60">60</option>
+                    </select>秒&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" id="btnRefreshAllPanels" name="btnRefreshAllPanels"
+                        class="easyui-linkbutton" data-options="iconCls:'icon-reload'">全部刷新</a>&nbsp;&nbsp;&nbsp;<a
+                            href="#" class="easyui-linkbutton" id="btnFullScreen" iconcls="icon-fullscreen"
+                            plain="true">全屏</a>|<a href="#" class="easyui-linkbutton" id="btnResetScreen" iconcls="icon-resetscreen"
+                                plain="true">还原</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="DIV_CP_X0" name="DIV_CP_X0">
+                    <div id="toolbar_CP_X0">
+                        当前工作员工:<span id="span_CP_X0_CurrentEmp" style="color: Red; font-weight: bold"></span>&nbsp;&nbsp;&nbsp;已工作时长:<span
+                            id="span_CP_X0_HasWorkedLong" style="color: Red; font-weight: bold"></span><br />
+                        开始工作时间:<span id="span_CP_X0_StartWorkTime" style="color: Red; font-weight: bold"></span>&nbsp;&nbsp;&nbsp;理论结束时间:<span
+                            id="span_CP_X0_NeedEndWorkTime" style="color: Red; font-weight: bold"></span>
+                    </div>
+                    <div id="DG_CP_X0" fit="true">
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div id="DIV_CP_X1" name="DIV_CP_X1">
+                    <div id="toolbar_CP_X1">
+                        当前工作员工:<span id="span_CP_X1_CurrentEmp" style="color: Red; font-weight: bold"></span>&nbsp;&nbsp;&nbsp;已工作时长:<span
+                            id="span_CP_X1_HasWorkedLong" style="color: Red; font-weight: bold"></span><br />
+                        开始工作时间:<span id="span_CP_X1_StartWorkTime" style="color: Red; font-weight: bold"></span>&nbsp;&nbsp;&nbsp;理论结束时间:<span
+                            id="span_CP_X1_NeedEndWorkTime" style="color: Red; font-weight: bold"></span>
+                    </div>
+                    <div id="DG_CP_X1" fit="true">
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div id="DIV_CP_X2" name="DIV_CP_X2">
+                    <div id="toolbar_CP_X2">
+                        当前工作员工:<span id="span_CP_X2_CurrentEmp" style="color: Red; font-weight: bold"></span>&nbsp;&nbsp;&nbsp;已工作时长:<span
+                            id="span_CP_X2_HasWorkedLong" style="color: Red; font-weight: bold"></span><br />
+                        开始工作时间:<span id="span_CP_X2_StartWorkTime" style="color: Red; font-weight: bold"></span>&nbsp;&nbsp;&nbsp;理论结束时间:<span
+                            id="span_CP_X2_NeedEndWorkTime" style="color: Red; font-weight: bold"></span>
+                    </div>
+                    <div id="DG_CP_X2" fit="true">
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div id="DIV_CP_X3" name="DIV_CP_X3">
+                    <div id="toolbar_CP_X3">
+                        当前工作员工:<span id="span_CP_X3_CurrentEmp" style="color: Red; font-weight: bold"></span>&nbsp;&nbsp;&nbsp;已工作时长:<span
+                            id="span_CP_X3_HasWorkedLong" style="color: Red; font-weight: bold"></span><br />
+                        开始工作时间:<span id="span_CP_X3_StartWorkTime" style="color: Red; font-weight: bold"></span>&nbsp;&nbsp;&nbsp;理论结束时间:<span
+                            id="span_CP_X3_NeedEndWorkTime" style="color: Red; font-weight: bold"></span>
+                    </div>
+                    <div id="DG_CP_X3" fit="true">
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="DIV_CP_X4" name="DIV_CP_X4">
+                    <div id="toolbar_CP_X4">
+                        当前工作员工:<span id="span_CP_X4_CurrentEmp" style="color: Red; font-weight: bold"></span>&nbsp;&nbsp;&nbsp;已工作时长:<span
+                            id="span_CP_X4_HasWorkedLong" style="color: Red; font-weight: bold"></span><br />
+                        开始工作时间:<span id="span_CP_X4_StartWorkTime" style="color: Red; font-weight: bold"></span>&nbsp;&nbsp;&nbsp;理论结束时间:<span
+                            id="span_CP_X4_NeedEndWorkTime" style="color: Red; font-weight: bold"></span>
+                    </div>
+                    <div id="DG_CP_X4" fit="true">
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div id="DIV_CP_X5" name="DIV_CP_X5">
+                    <div id="toolbar_CP_X5">
+                        当前工作员工:<span id="span_CP_X5_CurrentEmp" style="color: Red; font-weight: bold"></span>&nbsp;&nbsp;&nbsp;已工作时长:<span
+                            id="span_CP_X5_HasWorkedLong" style="color: Red; font-weight: bold"></span><br />
+                        开始工作时间:<span id="span_CP_X5_StartWorkTime" style="color: Red; font-weight: bold"></span>&nbsp;&nbsp;&nbsp;理论结束时间:<span
+                            id="span_CP_X5_NeedEndWorkTime" style="color: Red; font-weight: bold"></span>
+                    </div>
+                    <div id="DG_CP_X5" fit="true">
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div id="DIV_CP_X6" name="DIV_CP_X6">
+                    <div id="toolbar_CP_X6">
+                        当前工作员工:<span id="span_CP_X6_CurrentEmp" style="color: Red; font-weight: bold"></span>&nbsp;&nbsp;&nbsp;已工作时长:<span
+                            id="span_CP_X6_HasWorkedLong" style="color: Red; font-weight: bold"></span><br />
+                        开始工作时间:<span id="span_CP_X6_StartWorkTime" style="color: Red; font-weight: bold"></span>&nbsp;&nbsp;&nbsp;理论结束时间:<span
+                            id="span_CP_X6_NeedEndWorkTime" style="color: Red; font-weight: bold"></span>
+                    </div>
+                    <div id="DG_CP_X6" fit="true">
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div id="DIV_CP_X7" name="DIV_CP_X7">
+                    <div id="toolbar_CP_X7">
+                        当前工作员工:<span id="span_CP_X7_CurrentEmp" style="color: Red; font-weight: bold"></span>&nbsp;&nbsp;&nbsp;已工作时长:<span
+                            id="span_CP_X7_HasWorkedLong" style="color: Red; font-weight: bold"></span><br />
+                        开始工作时间:<span id="span_CP_X7_StartWorkTime" style="color: Red; font-weight: bold"></span>&nbsp;&nbsp;&nbsp;理论结束时间:<span
+                            id="span_CP_X7_NeedEndWorkTime" style="color: Red; font-weight: bold"></span>
+                    </div>
+                    <div id="DG_CP_X7" fit="true">
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="DIV_CP_X8" name="DIV_CP_X8">
+                    <div id="toolbar_CP_X8">
+                        当前工作员工:<span id="span_CP_X8_CurrentEmp" style="color: Red; font-weight: bold"></span>&nbsp;&nbsp;&nbsp;已工作时长:<span
+                            id="span_CP_X8_HasWorkedLong" style="color: Red; font-weight: bold"></span><br />
+                        开始工作时间:<span id="span_CP_X8_StartWorkTime" style="color: Red; font-weight: bold"></span>&nbsp;&nbsp;&nbsp;理论结束时间:<span
+                            id="span_CP_X8_NeedEndWorkTime" style="color: Red; font-weight: bold"></span>
+                    </div>
+                    <div id="DG_CP_X8" fit="true">
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div id="DIV_CP_X9" name="DIV_CP_X9">
+                    <div id="toolbar_CP_X9">
+                        当前工作员工:<span id="span_CP_X9_CurrentEmp" style="color: Red; font-weight: bold"></span>&nbsp;&nbsp;&nbsp;已工作时长:<span
+                            id="span_CP_X9_HasWorkedLong" style="color: Red; font-weight: bold"></span><br />
+                        开始工作时间:<span id="span_CP_X9_StartWorkTime" style="color: Red; font-weight: bold"></span>&nbsp;&nbsp;&nbsp;理论结束时间:<span
+                            id="span_CP_X9_NeedEndWorkTime" style="color: Red; font-weight: bold"></span>
+                    </div>
+                    <div id="DG_CP_X9" fit="true">
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div id="DIV_CP_X10" name="DIV_CP_X10">
+                    <div id="toolbar_CP_X10">
+                        当前工作员工:<span id="span_CP_X10_CurrentEmp" style="color: Red; font-weight: bold"></span>&nbsp;&nbsp;&nbsp;已工作时长:<span
+                            id="span_CP_X10_HasWorkedLong" style="color: Red; font-weight: bold"></span><br />
+                        开始工作时间:<span id="span_CP_X10_StartWorkTime" style="color: Red; font-weight: bold"></span>&nbsp;&nbsp;&nbsp;理论结束时间:<span
+                            id="span_CP_X10_NeedEndWorkTime" style="color: Red; font-weight: bold"></span>
+                    </div>
+                    <div id="DG_CP_X10" fit="true">
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div id="DIV_CP_X11" name="DIV_CP_X11">
+                    <div id="toolbar_CP_X11">
+                        当前工作员工:<span id="span_CP_X11_CurrentEmp" style="color: Red; font-weight: bold"></span>&nbsp;&nbsp;&nbsp;已工作时长:<span
+                            id="span_CP_X11_HasWorkedLong" style="color: Red; font-weight: bold"></span><br />
+                        开始工作时间:<span id="span_CP_X11_StartWorkTime" style="color: Red; font-weight: bold"></span>&nbsp;&nbsp;&nbsp;理论结束时间:<span
+                            id="span_CP_X11_NeedEndWorkTime" style="color: Red; font-weight: bold"></span>
+                    </div>
+                    <div id="DG_CP_X11" fit="true">
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

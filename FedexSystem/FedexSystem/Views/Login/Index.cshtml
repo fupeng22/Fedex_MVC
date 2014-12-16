@@ -1,0 +1,159 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <script src="@Url.Content("~/Scripts/jquery-1.6.2.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/JqueryUI/jquery.easyui.min.js")" type="text/javascript"></script>
+    <link href="@Url.Content("~/JqueryUI/themes/default/easyui.css")"  rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/JqueryUI/themes/icon.css")"  rel="stylesheet" type="text/css" />
+    <script  src="@Url.Content("~/JS/Login.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/JqueryUI/easyui-lang-zh_CN.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/My97DatePicker/WdatePicker.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/JS/Common/Common.js")" type="text/javascript"></script>
+    <style>
+        TD
+        {
+            font-size: 11px;
+            color: #000000;
+            font-family: Verdana, Arial, Helvetica, sans-serIf;
+            text-decoration: none;
+        }
+        .input_1
+        {
+            border-right: #999999 1px solid;
+            padding-right: 2px;
+            border-top: #999999 1px solid;
+            padding-left: 2px;
+            list-style-position: inside;
+            font-size: 12px;
+            padding-bottom: 2px;
+            margin-left: 10px;
+            border-left: #999999 1px solid;
+            color: #333333;
+            padding-top: 2px;
+            border-bottom: #999999 1px solid;
+            font-family: Arial, Helvetica, sans-serIf;
+            list-style-type: none;
+            height: 18px;
+            background-color: #dadedf;
+        }
+    </style>
+</head>
+<body>
+    <input type="hidden" id="hidRetURL" name="hidRetURL"  value='@Request.QueryString["URLRet"]'/>
+    <table cellspacing="0" cellpadding="0" width="651" align="center" border="0">
+        <tbody>
+            <tr>
+                <td height="50">
+                </td>
+            </tr>
+            <tr>
+                <td height="351">
+                    <table cellspacing="0" cellpadding="0" width="100%" border="0">
+                        <tbody>
+                            <tr>
+                                <td width="15" style='background-image: url("../../images/ileft.gif")' height="43">
+                                </td>
+                                <td width="620" style='background-image: url("../../images/i_topbg2.gif")'>
+                                    <img height="43" src='../../images/i_top1.gif' width="43">
+                                </td>
+                                <td width="16">
+                                    <img height="43" src="../../images/iright.gif" width="16">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style='background-image: url("../../images/ileftbg.gif")'>
+                                </td>
+                                <td valign="center" style='background-image: url("../../images/bg.gif")' height="279">
+                                    <table height="109" cellspacing="0" cellpadding="0" width="369" align="center" border="0">
+                                        <tbody>
+                                            <tr>
+                                                <td width="155">
+                                                    <img height="140" src="../../images/logo.jpg" width="155" usemap="#Map" border="0">
+                                                </td>
+                                                <td valign="top" align="left" width="214">
+                                                    <table cellspacing="0" cellpadding="0" width="167" border="0">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td valign="bottom" width="167" height="30">
+                                                                    <font style="color: Red; font-weight: bold; font-size: 19px">&nbsp;&nbsp;&nbsp;联邦快递X光机查询系统</font>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td height="123">
+                                                                    <table height="109" cellspacing="0" cellpadding="0" align="center" border="0">
+                                                                        <form name="form2" action="" method="post">
+                                                                        <tr>
+                                                                            <td valign="bottom" align="left" width="44" height="28">
+                                                                                <div align="right">
+                                                                                    <img height="14" src="../../images/id.gif" width="43"></div>
+                                                                            </td>
+                                                                            <td valign="bottom" align="left" width="114" height="28">
+                                                                                <input class="input_1" id="txtUserName" size="40" name="txtUserName">
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td align="left" height="20">
+                                                                                <div align="right">
+                                                                                    <img height="14" src="../../images/pass.gif" width="43"></div>
+                                                                            </td>
+                                                                            <td height="20">
+                                                                                <input class="input_1" id="txtPassword" type="password" size="40" name="txtPassword">
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td valign="center" colspan="2" height="25">
+                                                                                <div align="center">
+                                                                                    <a href="#" id="btnLogin" name="btnLogin" class="easyui-linkbutton" data-options="iconCls:'icon-login'">
+                                                                                        登陆</a>
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                        </form>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                                <td style='background-image: url("../../images/irightbg.gif")'>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img height="29" src="../../images/i_bottom_left.gif" width="15">
+                                </td>
+                                <td style='background-image: url("../../images/i_bottom_bg.gif")'>
+                                </td>
+                                <td width="16">
+                                    <img height="29" src="../../images/i_bottom_right.gif" width="16">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td height="1">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    &nbsp;
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <map name="Map">
+        <area shape="CIRCLE" target="_blank" coords="77,67,57">
+    </map>
+</body>
+</html>

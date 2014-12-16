@@ -1,0 +1,124 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/MainFrame/_Layout.cshtml";
+}
+<div id="layout_Main" class="easyui-layout" data-options="fit:true" style="border-width: 0">
+    <div region="north" split="false" style="height: 30px; padding: 0px; border-width: 0">
+        <span style="float: left; font-weight: bold; font-size: medium">&nbsp;&nbsp;&nbsp; 当前登录:<font
+            style="color: Red">@Session["Global_UserName"]</font> &nbsp;&nbsp;&nbsp;<span class="bs">
+                <a class="styleswitch a1" style="cursor: pointer" rel="blue"></a><a class="styleswitch a2"
+                    style="cursor: pointer" rel="gray"></a><a class="styleswitch a3" style="cursor: pointer"
+                        rel="cupertino"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="styleswitch a4" style="cursor: pointer"
+                            rel="dark-hive"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="styleswitch a5" style="cursor: pointer"
+                                rel="pepper-grinder"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="styleswitch a6" style="cursor: pointer"
+                                    rel="sunny"></a></span> </span><span style="float: right"><span id="lblCurrentDate">
+                                    </span>&nbsp;&nbsp;&nbsp;<a href="#" id="btnRelogin" class="easyui-linkbutton" data-options="iconCls:'icon-exit'">注销</a>&nbsp;&nbsp;&nbsp;</span>
+    </div>
+    <div region="west" split="true" style="width: 150px; border-width: 0">
+        <div id="LeftNavigation" class="easyui-accordion" fit="true">
+            <div title="X光机综合查询" style="overflow: auto;">
+                <center>
+                    <br />
+                    <br />
+                    <a href="#" id="btnQueryInterface" title="X光机综合查询" class="easyui-linkbutton">X光机综合查询</a>
+                    <br />
+                    <br />
+                    <br />
+                    <a href="#" id="btnNewQueryInterface" title="X光机综合查询" class="easyui-linkbutton">X光机综合查询<font
+                        style="color: Red">新</font></a>
+                    <br />
+                </center>
+            </div>
+            <div title="录像查询" style="overflow: auto;">
+                <center>
+                    <br />
+                    <br />
+                    <a href="#" id="btnXRayVideoQuery" title="X光机录像查询" class="easyui-linkbutton">X光机录像查询</a>
+                    <br />
+                    <br />
+                    <a href="#" id="btnOpenCheckVideoQuery" title="开箱录像查询" class="easyui-linkbutton">开箱录像查询</a>
+                    <br />
+                </center>
+            </div>
+            <div title="到岗信息查询" style="overflow: auto;">
+                <center>
+                    <br />
+                    <br />
+                    <a href="#" id="btnXRayDutyReal" title="X光机实时到岗情况" class="easyui-linkbutton">X光机实时到岗情况</a>
+                    <br />
+                    <br />
+                    <a href="#" id="btnOnDutyStatisticByXRay" title="值班统计" class="easyui-linkbutton">值&nbsp;&nbsp;班&nbsp;&nbsp;统&nbsp;&nbsp;计</a>
+                    @*<br />
+                    <br />
+                    <a href="#" id="btnOnDutyStatisticByUser" title="值班统计(员工)" class="easyui-linkbutton">
+                        值班统计(员工)</a>*@
+                    <br />
+                </center>
+            </div>
+            <div title="报表查询与统计" style="overflow: auto;">
+                <center>
+                    <br />
+                    <br />
+                    <a href="#" id="btnQueryDetail" title="当班日志查询" class="easyui-linkbutton">当班日志查询</a>
+                    <br />
+                    <br />
+                    <a href="#" id="btnScanStatistic" title="扫描货物统计" class="easyui-linkbutton">扫描货物统计</a>
+                    <br />
+                </center>
+            </div>
+            <div title="系统管理" style="overflow: auto;">
+                <center>
+                    <br />
+                    <br />
+                    <a href="#" id="btnDepartManagement" title="部门资料管理" class="easyui-linkbutton">部门资料管理</a>
+                    <br />
+                    <br />
+                    <a href="#" id="btnUserInfo" title="用户信息维护" class="easyui-linkbutton">用户信息维护</a>
+                    <br />
+                </center>
+            </div>
+        </div>
+    </div>
+    <div region="center" style="background: #eee; border-width: 0" split="true">
+        <div id="tab_Content" class="easyui-tabs" fit="true" style="border-width: 0">
+            <div title="使用指南" style="padding: 0px;">
+            </div>
+        </div>
+    </div>
+    <div region="south" split="true" style="height: 30px; border-width: 0">
+        <div align="center">
+            CopyRight@2006-2012 <a target="_blank" href="http://www.chinabetter.com">www.chinabetter.com</a></div>
+    </div>
+</div>
+<div id="mm" class="easyui-menu" style="width: 150px; display: none">
+    <div id="mm-tabupdate" iconcls="icon-reload">
+        刷新</div>
+    <div class="menu-sep">
+    </div>
+    <div id="mm-tabclose">
+        关闭</div>
+    <div id="mm-tabcloseall">
+        全部关闭</div>
+    <div id="mm-tabcloseother">
+        除此之外全部关闭</div>
+    <div class="menu-sep">
+    </div>
+    <div id="mm-tabcloseright">
+        当前页右侧全部关闭</div>
+    <div id="mm-tabcloseleft">
+        当前页左侧全部关闭</div>
+    <div class="menu-sep">
+    </div>
+    <div id="mm-exit">
+        退出</div>
+</div>
+<div id="dlg_Print" data-options="iconCls:'icon-print'" style="padding: 1px; display: none">
+</div>
+<div id="dlg_GlobalPrint" fit="true" data-options="iconCls:'icon-print'" style="padding: 1px;
+    display: none">
+    <iframe src="" style="width: 98%; height: 98%" id="frmPrintURL"></iframe>
+</div>
+<div id="dlg_MsgAlert" style="padding: 1px; display: none">
+    <div id="msgContent">
+    </div>
+</div>

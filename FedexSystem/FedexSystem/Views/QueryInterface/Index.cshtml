@@ -1,0 +1,80 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Index</title>
+    <script src="@Url.Content("~/Scripts/jquery-1.6.2.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/JqueryUI/jquery.easyui.min.js")" type="text/javascript"></script>
+    <link href="@Url.Content("~/JqueryUI/themes/default/easyui.css")"  rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/JqueryUI/themes/icon.css")"  rel="stylesheet" type="text/css" />
+    <script  src="@Url.Content("~/JS/QueryInterface.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/JqueryUI/easyui-lang-zh_CN.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/My97DatePicker/WdatePicker.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/JS/Common/Common.js")" type="text/javascript"></script>
+</head>
+<body>
+    <input  type="hidden" id="hid_IsEmployee" name="hid_IsEmployee" value='@ViewData["IsEmployee"]'/>
+    <div id="div_Layout" class="easyui-layout" style="width: 600px; height: 400px; border-width: 0"
+        fit="true">
+        <div data-options="region:'west',title:'',split:true" style="width: 200px; border-width: 0">
+            <div id="div_WestLayout" class="easyui-layout" style="width: 600px; height: 400px;
+                border-width: 0; padding: 0px" fit="true">
+                <div data-options="region:'north',title:'',split:false" hidden="true" style="height: 0px;
+                    border-width: 0; padding: 2px">
+                    <div id="TVDepart" name="TVDepart" lines="true" fit="true">
+                    </div>
+                </div>
+                <div data-options="region:'center',title:'',split:false" style="height: 100px; border-width: 0">
+                    <div id="DG_UserInfo" fit="true" style="width: 800px; height: 600px">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div data-options="region:'center',title:''" style="padding: 0px; background: #eee;
+            border-width: 0">
+            <div id="div_CenterLayout" class="easyui-layout" style="width: 600px; height: 400px;
+                border-width: 0; padding: 0px" fit="true">
+                <div data-options="region:'north',title:'',split:true" style="height: 85px; border-width: 0;
+                    padding: 2px">
+                    <table>
+                        <tr>
+                            <td>
+                                &nbsp;X&nbsp;光&nbsp;机:<select id="ddlPostion" multiple class="easyui-combotree" style="width: 830px;"
+                                    panelheight="auto"></select><br />
+                                货物类型:<select id="ddlCargoProperty" multiple class="easyui-combotree" style="width: 830px;"
+                                    panelheight="auto"></select><br />
+                                X光机扫描时间段:<input type="text" id="inputBeginDate" name="inputBeginDate" onfocus="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm:ss'});"
+                class="Wdate" style="width: 160px"  value='@(DateTime.Now.ToString("yyyy-MM-dd") + " 00:00:00")'/>---<input type="text" id="inputEndDate" name="inputEndDate"
+                    onfocus="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm:ss'});" class="Wdate" style="width: 160px"  value='@(DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"))'/>&nbsp;&nbsp;&nbsp;&nbsp;
+                                <input type="radio" id="rdViewType_1" name="rdViewType" checked />
+                                <label for="rdViewType_1">
+                                    <span id="span_ViewType1">查看所有</span></label><input type="radio" id="rdViewType_2"
+                                        name="rdViewType" /><label for="rdViewType_2"><span id="span_ViewType2">只看导入过的</span></label>
+                                &nbsp;&nbsp;&nbsp;<a href="#" id="btnQuery" name="btnQuery" class="easyui-linkbutton"
+                                    data-options="iconCls:'icon-search'"> 查询</a> <a href="#" id="btnReset" name="btnReset"
+                                        class="easyui-linkbutton" data-options="iconCls:'icon-undo'">重置</a> <a href="javascript:void(0)"
+                                            id="menuButtonReport" class="easyui-menubutton" data-options="menu:'#menuButtons',iconCls:'icon-report',plain:false">
+                                            报表</a>
+                                <div id="menuButtons" style="width: 150px;">
+                                    <div id="btnPrint" name="btnPrint" data-options="iconCls:'icon-print'">
+                                        打印(PDF)</div>
+                                    <div id="btnExcel" name="btnExcel" data-options="iconCls:'icon-excel'">
+                                        导出(Excel)</div>
+                                </div>
+                            </td>
+                            <td>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div data-options="region:'center',title:'',split:true" style="height: 100px; border-width: 0">
+                    <div id="DG_XRayScanResult" fit="true" style="width: 800px; height: 600px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

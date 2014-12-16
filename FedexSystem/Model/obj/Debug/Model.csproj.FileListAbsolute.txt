@@ -1,0 +1,49 @@
+D:\开发模板\开发模板\ODS.Model\bin\Debug\Model.dll
+D:\开发模板\开发模板\ODS.Model\bin\Debug\Model.pdb
+D:\开发模板\开发模板\ODS.Model\obj\Debug\ResolveAssemblyReference.cache
+D:\开发模板\开发模板\ODS.Model\obj\Debug\Model.dll
+D:\开发模板\开发模板\ODS.Model\obj\Debug\Model.pdb
+D:\Fedex\FedexSystem\Model\bin\Debug\Model.dll
+D:\Fedex\FedexSystem\Model\bin\Debug\Model.pdb
+D:\Fedex\FedexSystem\Model\obj\Debug\ResolveAssemblyReference.cache
+D:\Fedex\FedexSystem\Model\obj\Debug\Model.dll
+D:\Fedex\FedexSystem\Model\obj\Debug\Model.pdb
+E:\Fedex\kkk\FedexSystem_2008版本\Model\bin\Debug\Model.dll
+E:\Fedex\kkk\FedexSystem_2008版本\Model\bin\Debug\Model.pdb
+E:\Fedex\kkk\FedexSystem_2008版本\Model\obj\Debug\ResolveAssemblyReference.cache
+E:\Fedex\kkk\FedexSystem_2008版本\Model\obj\Debug\Model.dll
+E:\Fedex\kkk\FedexSystem_2008版本\Model\obj\Debug\Model.pdb
+C:\Documents and Settings\Benny\桌面\Fedex\FedexSystem_2008版本\Model\bin\Debug\Model.dll
+C:\Documents and Settings\Benny\桌面\Fedex\FedexSystem_2008版本\Model\bin\Debug\Model.pdb
+C:\Documents and Settings\Benny\桌面\Fedex\FedexSystem_2008版本\Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Benny\桌面\Fedex\FedexSystem_2008版本\Model\obj\Debug\Model.dll
+C:\Documents and Settings\Benny\桌面\Fedex\FedexSystem_2008版本\Model\obj\Debug\Model.pdb
+E:\FedexSystem_2008版本\FedexSystem_2008版本\Model\bin\Debug\Model.dll
+E:\FedexSystem_2008版本\FedexSystem_2008版本\Model\bin\Debug\Model.pdb
+E:\FedexSystem_2008版本\FedexSystem_2008版本\Model\obj\Debug\ResolveAssemblyReference.cache
+E:\FedexSystem_2008版本\FedexSystem_2008版本\Model\obj\Debug\Model.dll
+E:\FedexSystem_2008版本\FedexSystem_2008版本\Model\obj\Debug\Model.pdb
+C:\Documents and Settings\Administrator\桌面\联邦设计工厂\FedexSystem_2008版本\Model\bin\Debug\Model.dll
+C:\Documents and Settings\Administrator\桌面\联邦设计工厂\FedexSystem_2008版本\Model\bin\Debug\Model.pdb
+C:\Documents and Settings\Administrator\桌面\联邦设计工厂\FedexSystem_2008版本\Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\联邦设计工厂\FedexSystem_2008版本\Model\obj\Debug\Model.dll
+C:\Documents and Settings\Administrator\桌面\联邦设计工厂\FedexSystem_2008版本\Model\obj\Debug\Model.pdb
+C:\Documents and Settings\Administrator\桌面\联邦设计工厂\xin\FedexSystem_2008版本\Model\bin\Debug\Model.dll
+C:\Documents and Settings\Administrator\桌面\联邦设计工厂\xin\FedexSystem_2008版本\Model\bin\Debug\Model.pdb
+C:\Documents and Settings\Administrator\桌面\联邦设计工厂\xin\FedexSystem_2008版本\Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\联邦设计工厂\xin\FedexSystem_2008版本\Model\obj\Debug\Model.dll
+C:\Documents and Settings\Administrator\桌面\联邦设计工厂\xin\FedexSystem_2008版本\Model\obj\Debug\Model.pdb
+J:\NicVic\联邦工厂\Model\bin\Debug\Model.dll
+J:\NicVic\联邦工厂\Model\bin\Debug\Model.pdb
+J:\NicVic\联邦工厂\Model\obj\Debug\ResolveAssemblyReference.cache
+J:\NicVic\联邦工厂\Model\obj\Debug\Model.dll
+J:\NicVic\联邦工厂\Model\obj\Debug\Model.pdb
+E:\Fedex_MVC\FedexSystem\Model\bin\Debug\Model.dll
+E:\Fedex_MVC\FedexSystem\Model\bin\Debug\Model.pdb
+E:\Fedex_MVC\FedexSystem\Model\obj\Debug\Model.dll
+E:\Fedex_MVC\FedexSystem\Model\obj\Debug\Model.pdb
+J:\NicVic\Fedex_MVC\FedexSystem\Model\bin\Debug\Model.dll
+J:\NicVic\Fedex_MVC\FedexSystem\Model\bin\Debug\Model.pdb
+J:\NicVic\Fedex_MVC\FedexSystem\Model\obj\Debug\ResolveAssemblyReference.cache
+J:\NicVic\Fedex_MVC\FedexSystem\Model\obj\Debug\Model.dll
+J:\NicVic\Fedex_MVC\FedexSystem\Model\obj\Debug\Model.pdb
